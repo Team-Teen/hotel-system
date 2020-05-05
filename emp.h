@@ -41,7 +41,7 @@ cin>>cntctno;
         cin>>hrswrked;
         cout<<endl<<"select your post in upper management:"<<endl<<"1.management\n2.security\n3.adminstration\n4.other";
         cin>>ch;
-while(position!=""){        
+while(position==""){        
 switch (ch)
 {
 case 1:
@@ -110,7 +110,7 @@ cin>>cntctno;
     cin>>shifts;
      cout<<endl<<"select your post in staff:"<<endl<<"1.reception\n2.cleaning staff\n3.kitchen staff\n4.other";
         cin>>ch;
-while(position!=""){
+while(position==""){
 switch (ch)
 {
 case 1:
